@@ -52,7 +52,7 @@ To run this project locally, you need to have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/chartinsight-ai.git
+   git clone https://github.com/DhanushGD/ChartInsight-AI.git
    cd chartinsight-ai
 
 2. **Set up environment variables:**
