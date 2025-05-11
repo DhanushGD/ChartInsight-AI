@@ -90,14 +90,7 @@ streamlit run app.py
 The frontend should be available at http://localhost:8501.
 
 ### Example Workflow
-1. User uploads a chart image.
-2. The Azure OCR service extracts text from the chart.
-3. The LangGraph agents:
-    - Validate the OCR output.
-    - Classify the chart type (Line, Pie, Bar).
-    - Handle any clarification if OCR output is ambiguous.
-    - Generate an answer to the user’s question.
-4. The LLM agent processes the question and provides an insightful response based on the extracted chart data.
+![image](https://github.com/user-attachments/assets/adeeb2ff-78f3-4d4d-80ba-70fdede8dd1a)
 
 ### Multi-Agents Overview
 ChartInsight AI uses a **LangGraph** multi-agent system, which includes:
